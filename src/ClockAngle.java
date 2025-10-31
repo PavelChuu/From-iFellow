@@ -9,7 +9,7 @@ public class ClockAngle {
           System.out.println("Введите значение для минутной стрелки:");
           int minutes = scanner.nextInt();
 
-     //Обработка ошибок
+          //Обработка ошибок
           while ((hours > 23 || hours < 0) || (minutes > 59 || minutes < 0)){
                if (hours > 23 || hours < 0){
                     System.out.println("Введено неверно значение для часовой стрелки");
@@ -24,7 +24,7 @@ public class ClockAngle {
                }
                
           scanner.close();
-          //Переводим 24-ти часовой на 12-ти часовой формат
+          //Переводим 24 часовой на 12 часовой формат
           hours = (hours % 12);
 
           angleHand(hours, minutes);
