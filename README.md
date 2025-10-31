@@ -1,1 +1,1 @@
-Repository with iFellow assignment
+Репозиторий для ТЗ от iFellow
