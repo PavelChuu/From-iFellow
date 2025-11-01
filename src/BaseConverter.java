@@ -16,7 +16,7 @@ public class BaseConverter {
         Scanner scanner = new Scanner(System.in);
         byte b;
 
-        //Узнаём желаему шкалу для конвертации
+        //Узнаём желаемую шкалу для конвертации
         System.out.println("Введите желаемую шкалу:");
         System.out.println("1 - Кельвин");
         System.out.println("2 - Фаренгейт");
